@@ -233,11 +233,13 @@ header.masthead .intro-text .name {
 #title-text {
   font-size: 1.9em;
 }
+
 #title-skills {
   font-size: 1.4em;
   color: rgb(163, 163, 163);
   font-weight: 300;
 }
+
 header.masthead .intro-text .skills {
   font-size: 1.25em;
   font-weight: 300;
@@ -631,12 +633,12 @@ footer .footer-below {
   animation-duration: 2.5s;
   animation-fill-mode: both;
 }
+
 .animated-text-delay {
   animation-delay: 2.8s;
   animation-duration: 2.5s;
   animation-fill-mode: both;
 }
-
 
 @keyframes fadeIn {
   0% {
@@ -672,4 +674,9 @@ footer .footer-below {
   100% {
     opacity: 1;
   }
+}
+
+#phone_num {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
